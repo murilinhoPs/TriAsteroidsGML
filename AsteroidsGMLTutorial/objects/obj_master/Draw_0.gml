@@ -9,7 +9,7 @@ case rm_start:
 	"Asteroids GML", 3, 3, 0,color,color,color,color,1);
 	
 	draw_text(room_width/2, 200, 
-@"Consiga 1,000 pontos para ganhar!
+@"Consiga 500 pontos para ganhar!
 
 W: mover
 A/D: virar
@@ -25,6 +25,12 @@ SPACE: atirar
 	break;
 	
 	case rm_win:
+	draw_set_halign(fa_center);
+	var color = c_green;
+	 draw_text_transformed_color(room_width/2, 100, 
+	"Obrigado por jogar!!!", 3, 3, 0,color,color,color,color,1);	
+    draw_text_color(room_width/2, 200, ">>PRESSIONE ENTER PARA VOLTAR AO MENU!<<", 
+	c_black, c_black, c_black, c_black, 1);
 	break;
 	
 	case rm_lose:
@@ -32,14 +38,16 @@ SPACE: atirar
 	var color = c_red;
 	 draw_text_transformed_color(room_width/2, 100, 
 	"Game Over", 3, 3, 0,color,color,color,color,1);	
-    draw_text(room_width/2, 200, ">>PRESSIONE ENTER PARA VOLTAR!<<");
+    draw_text_color(room_width/2, 200, ">>PRESSIONE ENTER PARA JOGAR NOVAMENTE!<<", 
+	c_black, c_black, c_black, c_black, 1);
 	break;
-	
 }
 
 if(paused)
    draw_text(220,250, "Pause!");
 else
    draw_text(0,0, " ");
+  
+ 
    
-   get_timer();
+   

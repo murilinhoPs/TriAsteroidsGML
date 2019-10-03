@@ -15,13 +15,23 @@ else{
 
 if room == rm_game
 {
-//if score >= 1000
-//    {
-//    room_goto(rm_win);
-//    }
+if score >= 500
+ {
+		room_goto(rm_win);
+ }
 if (lives <= 0)
-    {
-    room_goto(rm_lose);
-	lives = 1;
-    }
+ {
+	    room_goto(rm_lose);
+		lives = 1;
+ }
+}
+
+if(keyboard_check(ord("R")))
+{
+	room_restart();
+}
+
+if(keyboard_check(ord("M")))
+{
+	room_goto(rm_start);
 }
