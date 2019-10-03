@@ -17,10 +17,12 @@ if room == rm_game
 {
 if score >= 500
  {
+	    audio_play_sound(snd_win, 1, false);
 		room_goto(rm_win);
  }
 if (lives <= 0)
  {
+		audio_play_sound(snd_lose, 1, false);
 	    room_goto(rm_lose);
 		lives = 1;
  }
@@ -28,6 +30,7 @@ if (lives <= 0)
 
 if(keyboard_check(ord("R")))
 {
+	audio_stop_sound(msc_song);
 	room_restart();
 }
 

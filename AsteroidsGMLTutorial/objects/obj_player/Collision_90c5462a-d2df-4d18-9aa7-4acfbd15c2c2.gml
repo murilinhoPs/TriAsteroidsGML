@@ -1,5 +1,9 @@
 lives -= 1;
 
+audio_stop_sound(msc_song);
+
+audio_play_sound(snd_die, 1, false);
+
 instance_destroy();
 
 with (obj_master)

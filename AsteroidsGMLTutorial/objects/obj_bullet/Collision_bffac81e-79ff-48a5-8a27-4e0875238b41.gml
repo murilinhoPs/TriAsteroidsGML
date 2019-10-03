@@ -4,6 +4,8 @@ with (other)
 {
 	instance_destroy();
 	
+	audio_play_sound(snd_die, 1, false);
+	
 	#region DuplicadeAsteroids
 	if(sprite_index == spr_asteroid_L)
 	{
