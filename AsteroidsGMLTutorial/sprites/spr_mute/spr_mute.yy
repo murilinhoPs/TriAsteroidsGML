@@ -52,37 +52,37 @@
             ]
         },
         {
-            "id": "103db393-eb18-4745-a3e1-5a35ea3e24ad",
+            "id": "1890a53a-e9b6-4214-bd74-37a323b41e8d",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "57813c0a-14de-4683-82be-17c8864a9ffe",
             "compositeImage": {
-                "id": "763846f1-654a-4b84-a2f6-2726510178e1",
+                "id": "403fa4b5-4f60-46dc-97da-2cb1b1249c04",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "103db393-eb18-4745-a3e1-5a35ea3e24ad",
+                "FrameId": "1890a53a-e9b6-4214-bd74-37a323b41e8d",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "e49ec6bb-27c7-480e-b0d1-0a0c835543fc",
+                    "id": "29937318-6acc-4ee7-8565-5d513842267a",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "103db393-eb18-4745-a3e1-5a35ea3e24ad",
+                    "FrameId": "1890a53a-e9b6-4214-bd74-37a323b41e8d",
                     "LayerId": "0bfeb9e3-89ee-4643-ae0d-e0eaee642d41"
                 },
                 {
-                    "id": "591cc0fb-3346-41bb-9dc7-ebcdda80f726",
+                    "id": "0fd1377d-e169-41b4-8d4e-c982b64bbaa6",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "103db393-eb18-4745-a3e1-5a35ea3e24ad",
+                    "FrameId": "1890a53a-e9b6-4214-bd74-37a323b41e8d",
                     "LayerId": "98969951-9067-4f18-bd05-3a372f2a674f"
                 },
                 {
-                    "id": "a6e24bc9-aadd-4704-950c-93a0b4c1f9db",
+                    "id": "b5a7544d-78e5-427e-b633-1dc8146419ca",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "103db393-eb18-4745-a3e1-5a35ea3e24ad",
+                    "FrameId": "1890a53a-e9b6-4214-bd74-37a323b41e8d",
                     "LayerId": "96c7fab3-0e42-4fee-a5ef-1f14774e1a73"
                 }
             ]
@@ -164,7 +164,7 @@
     ],
     "origin": 4,
     "originLocked": true,
-    "playbackSpeed": 1,
+    "playbackSpeed": 0,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,

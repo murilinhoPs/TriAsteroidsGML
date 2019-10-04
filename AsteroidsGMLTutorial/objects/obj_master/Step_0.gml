@@ -1,17 +1,17 @@
-#region Pause
-if(keyboard_check_pressed(ord("P"))){
+//#region Pause
+//if(keyboard_check_pressed(ord("P"))){
 	
-paused = !paused;
+//paused = !paused;
 
-}
+//}
 
-if(paused){
-  instance_deactivate_all(1);
-}
-else{
-  instance_activate_all();
-}
-#endregion
+//if(paused){
+//  instance_deactivate_all(1);
+//}
+//else{
+//  instance_activate_all();
+//}
+//#endregion
 
 if room == rm_game
 {

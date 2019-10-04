@@ -9,30 +9,30 @@ if(keyboard_check(vk_left))
 {
 	//image_angle += 5;
      image_angle = lerp(image_angle, angle, 0.1);
-	 motion_add(image_angle, 0.04);
+	 motion_add(image_angle, 0.025);
 	
 }
 if(keyboard_check(vk_right))
 {
 	//image_angle -= 5;
 	 image_angle = lerp(image_angle, angle, 0.1);
-	 motion_add(image_angle, 0.04);
+	 motion_add(image_angle, 0.025);
 }
 
 if (keyboard_check(vk_up))
 {
 	image_angle = lerp(image_angle, angle, 0.1);
-    motion_add(image_angle, 0.04);
+    motion_add(image_angle, 0.025);
 }
 
 if (keyboard_check(vk_down))
 {
 	 image_angle = lerp(image_angle, angle, 0.1);
-	 motion_add(image_angle, 0.04);
+	 motion_add(image_angle, 0.025);
 }
 
-if(speed > 3)
-	speed = 3;
+if(speed > 2.3)
+	speed = 2.3;
 
 
 if(keyboard_check_pressed(vk_space))
