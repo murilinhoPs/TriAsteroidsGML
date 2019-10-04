@@ -42,7 +42,7 @@
             "Key": "0774b221-574c-46e8-9d16-de3f47fca7f7",
             "Value": {
                 "id": "c40476ab-8eb8-413a-b1a2-c7b7c0ed94b2",
-                "resourcePath": "objects\/obj_Back_Menu\/obj_Back_Menu.yy",
+                "resourcePath": "objects\/obj_Menu\/obj_Menu.yy",
                 "resourceType": "GMObject"
             }
         },
