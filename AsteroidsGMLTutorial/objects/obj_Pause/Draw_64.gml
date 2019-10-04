@@ -1,4 +1,4 @@
 if(paused)
-   draw_text(250,250, "Pause!");
+   draw_text(220,250, "Pause!");
 else
    draw_text(0,0, " ");

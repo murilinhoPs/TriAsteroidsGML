@@ -19,7 +19,7 @@ SPACE: atirar");
 	
 	case rm_game:
 		draw_text(50, 10, "Pontos: " + string(score));
-		draw_text(50, 30, "Vidas:  " + string(lives));      	
+		draw_text(50, 30, "Vidas:  " + string(lives));
 	break;
 	
 	case rm_win:
