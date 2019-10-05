@@ -1,7 +1,8 @@
-if (room == rm_game)
+
+if (room = rm_game)
 {
-	audio_play_sound(msc_song, 2, true);
-	repeat(irandom_range(6, 10))
+	audio_play_sound(msc_song, 2, true)
+	repeat(5)
 	{
 		//Sò vai spawnar em x e y do 0 a 3 parte da tela ou da parte 7 até o final
 		// para nao spawnar na cara do player
@@ -15,9 +16,8 @@ if (room == rm_game)
 	alarm[0] = 60;
 }
 
-if(room != rm_game || room != rm_start)
+if(room != rm_game)
 	audio_stop_sound(msc_song);
 
-if(room == rm_start)
-	 audio_play_sound(msc_song, 2, true);
+
 	

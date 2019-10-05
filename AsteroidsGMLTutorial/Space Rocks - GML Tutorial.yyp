@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Value": {
+                "id": "693af54b-cf98-4c05-86de-35263bd962bd",
+                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
             "Key": "d60327c6-cabf-469a-afc8-cf1a70ee42b9",
             "Value": {
                 "id": "90b10948-30a0-4cfd-b1ff-80d5f42ac706",
