@@ -3,9 +3,11 @@ move_wrap(true,true,sprite_width/2);
 var angle = point_direction(0, 0, obj_Analog.analogMoveX, obj_Analog.analogMoveY);
 
 
-motion_add(image_angle, 0.02);
 if(obj_Analog.analogMoveX != 0 || obj_Analog.analogMoveX != 0)
+{
+	motion_add(image_angle, 0.02);
 	image_angle = lerp(image_angle, angle, 0.1);
+}
 
 if(speed > 1.5)
 	speed = 1.5;

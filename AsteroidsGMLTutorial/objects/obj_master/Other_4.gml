@@ -2,7 +2,7 @@
 if (room = rm_game)
 {
 	audio_play_sound(msc_song, 2, true)
-	repeat(5)
+	repeat(3)
 	{
 		//Sò vai spawnar em x e y do 0 a 3 parte da tela ou da parte 7 até o final
 		// para nao spawnar na cara do player
@@ -13,7 +13,7 @@ if (room = rm_game)
 		
 		instance_create_layer(xx, yy, "Instances", obj_asteroid);
 	}
-	alarm[0] = 60;
+	alarm[0] = room_speed * 10;
 }
 
 if(room != rm_game)

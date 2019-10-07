@@ -156,7 +156,7 @@
             "mvc": "1.0",
             "SpriteId": "c1ae5c6e-a81e-4ded-8627-7709c9dc012d",
             "blendMode": 0,
-            "isLocked": true,
+            "isLocked": false,
             "name": "default",
             "opacity": 100,
             "visible": true

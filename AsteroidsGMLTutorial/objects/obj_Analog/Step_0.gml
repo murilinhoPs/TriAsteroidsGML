@@ -19,6 +19,7 @@ if(device_mouse_check_button(0, mb_left))
 			var angle = point_direction(analogPosX, analogPosY, xx, yy); // direção (angulo)
 			var distance = point_distance(analogPosX, analogPosY, xx, yy); // distância entre esses pontos
 			
+			
 			analogMoveX = dcos(angle) * min(32, distance);
 			analogMoveY = -dsin(angle) * min(32, distance);
 		}

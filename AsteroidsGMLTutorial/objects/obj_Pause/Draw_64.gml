@@ -1,4 +1,4 @@
 if(paused)
-   draw_text(220,250, "Pause!");
+   draw_text(room_width/2, room_height/2, "Pause!");
 else
-   draw_text(0,0, " ");
+   return;

@@ -15,4 +15,4 @@ else
  
 instance_create_layer(xx, yy, "Instances", obj_asteroid);
 
-alarm[0] = 5 * room_speed;
+alarm[0] = room_speed * 10;
