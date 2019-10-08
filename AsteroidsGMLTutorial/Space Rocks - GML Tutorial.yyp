@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "0d5e042f-37eb-434c-95da-155b9d802bfd",
+                "resourcePath": "options\/linux\/options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "ac09f937-2e63-4a3f-a583-e535e8f9a7b0",
             "Value": {
                 "id": "bb1980af-6b35-44fa-ae18-7320068b8ca2",
@@ -394,7 +402,7 @@
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "693af54b-cf98-4c05-86de-35263bd962bd",
-                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
             }
         },
