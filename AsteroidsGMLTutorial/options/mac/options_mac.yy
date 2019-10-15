@@ -7,7 +7,8 @@
     "option_mac_allow_incoming_network": false,
     "option_mac_allow_outgoing_network": false,
     "option_mac_app_category": "Games",
-    "option_mac_app_id": "com.company.game",
+    "option_mac_app_id": "com.Trianons.TriAsteroids",
+    "option_mac_apple_sign_in": false,
     "option_mac_build_app_store": false,
     "option_mac_copyright": "(c) 2018 CompanyName",
     "option_mac_disable_sandbox": false,
@@ -24,7 +25,7 @@
     "option_mac_signing_identity": "Developer ID Application:",
     "option_mac_splash_png": "${base_options_dir}\/mac\/splash\/splash.png",
     "option_mac_start_fullscreen": false,
-    "option_mac_team_id": "",
+    "option_mac_team_id": "Juliano Akira Kimura",
     "option_mac_texture_page": "2048x2048",
     "option_mac_version": {
         "build": 0,
