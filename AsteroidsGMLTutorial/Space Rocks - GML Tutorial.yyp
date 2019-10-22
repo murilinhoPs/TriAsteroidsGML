@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "03fefd3f-eebf-469d-a98c-1133efcb64bc",
+            "Value": {
+                "id": "9cc7f297-182d-45f6-b170-7d56e1cb082f",
+                "resourcePath": "fonts\/font_title\/font_title.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "0774b221-574c-46e8-9d16-de3f47fca7f7",
             "Value": {
                 "id": "c40476ab-8eb8-413a-b1a2-c7b7c0ed94b2",
@@ -410,7 +418,7 @@
             "Key": "d342ac0d-f38f-44c9-a52b-d4ef107b84d6",
             "Value": {
                 "id": "86a792a5-f5e0-419a-bf50-28c7fe7323c6",
-                "resourcePath": "sprites\/sprite10\/sprite10.yy",
+                "resourcePath": "sprites\/Estrelas\/Estrelas.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -468,6 +476,14 @@
                 "id": "5301e347-726f-4d43-bdd9-5c23bf4b5ff6",
                 "resourcePath": "objects\/obj_asteroid\/obj_asteroid.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f966e450-bf33-458f-b2d5-30c57eff9548",
+            "Value": {
+                "id": "ecd99b68-9459-44e3-80e1-ed557b7eb5f5",
+                "resourcePath": "sprites\/Fundinho\/Fundinho.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

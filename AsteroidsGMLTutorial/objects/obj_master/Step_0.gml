@@ -15,7 +15,7 @@
 
 if room == rm_game
 {
-if score >= 500
+if score >= 100
  {
 	    audio_play_sound(snd_win, 1, false);
 		room_goto(rm_win);
