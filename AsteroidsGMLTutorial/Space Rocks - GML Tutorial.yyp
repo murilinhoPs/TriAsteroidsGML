@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "5ede3e82-9983-49a2-a8ac-77e2f9ba967d",
+            "Value": {
+                "id": "752c0d09-464c-4dad-a3e8-86e8d1ede597",
+                "resourcePath": "objects\/obj_cometa\/obj_cometa.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6e32c410-76fd-4f69-8b95-514750eb2b55",
             "Value": {
                 "id": "3056f889-5fcd-46c8-bef8-4eeca8dea360",
@@ -284,6 +292,14 @@
                 "id": "78b02241-4be6-4023-94c7-0dd5aeebc911",
                 "resourcePath": "fonts\/font_text\/font_text.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "a1aab311-80c2-459f-9580-202f888eb167",
+            "Value": {
+                "id": "8f96e4d1-f223-41f5-93b6-e2c1b611b4c5",
+                "resourcePath": "sprites\/cometa\/cometa.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
