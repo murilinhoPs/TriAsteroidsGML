@@ -27,7 +27,7 @@ Analog to move");
 	draw_set_halign(fa_center);
 	var color = c_green;
 	 draw_text_transformed_color(room_width/2, 100, 
-	"Thanks for playing this demo!!!", 3, 3, 0,color,color,color,color,1);	
+	"Thanks for playing!!!", 3, 3, 0,color,color,color,color,1);	
     draw_text_color(room_width/2, 200, 
 	@"Asteroids style game
 Made by Trianons", 
