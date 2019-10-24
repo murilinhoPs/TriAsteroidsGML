@@ -2,4 +2,9 @@
 
 //instance_activate_object(obj_cometa);
 
-//alarm[0] = room_speed * irandom_range(3,6);
+	//speed = random_range(7,11);
+	//direction = 225;
+//alarm[0] = room_speed *10;
+
+
+//alarm[0] = 10;
