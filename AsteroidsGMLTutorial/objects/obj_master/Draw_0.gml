@@ -19,8 +19,8 @@ Analog to move");
 	break;
 	
 	case rm_game:
-		draw_text(50, 10, "Points: " + string(score));
-		draw_text(50, 30, "Lives:  " + string(lives));
+		draw_text(50, 10, "points: " + string(score));
+		draw_text(50, 30, "life:  " + string(lives));
 	break;
 	
 	case rm_win:
@@ -29,7 +29,7 @@ Analog to move");
 	 draw_text_transformed_color(room_width/2, 100, 
 	"Thanks for playing this demo!!!", 3, 3, 0,color,color,color,color,1);	
     draw_text_color(room_width/2, 200, 
-	@"Asteroids style game (just the mechanics for now) 
+	@"Asteroids style game
 Made by Trianons", 
 	c_black, c_black, c_black, c_black, 1);
 	break;
@@ -42,7 +42,7 @@ Made by Trianons",
 	"Game Over", 3, 3, 0,color,color,color,color,1);	
 	// Try again
     draw_text_color(room_width/2, 200, 
-	@"Asteroids style game (just the mechanics for now)
+	@"Asteroids style game
 Made by Trianons!
 >>TRY AGAIN!<<", 
 	c_black, c_black, c_black, c_black, 1);
