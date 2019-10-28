@@ -9,11 +9,9 @@ case rm_start:
 	"Tri Asteroids", 3, 3, 0,color,color,color,color,1);
 	
 	draw_text(room_width/2, 200, 
-@"Get 100 pontos to win!
+@"Get 100 points to win!
 
-W: move
-A/D: turn
-S: stop
+Arrows to move
 Or
 Analog to move");
 	break;

@@ -5,5 +5,5 @@ if(alarm[0] <= 0)
 {
 	speed = random_range(7,11);
 	direction = 225;
-	alarm[0] = room_speed * irandom_range(3,6);
+	alarm[0] = room_speed * 6;
 }
