@@ -9,7 +9,7 @@ case rm_start:
 	"Tri Asteroids", 3, 3, 0,color,color,color,color,1);
 	
 	draw_text(room_width/2, 200, 
-@"Get 100 points to win!
+@"Get 150 points to win!
 
 Arrows to move
 Or
@@ -25,7 +25,7 @@ Analog to move");
 	draw_set_halign(fa_center);
 	var color = c_green;
 	 draw_text_transformed_color(room_width/2, 100, 
-	"Thanks for playing!!!", 3, 3, 0,color,color,color,color,1);	
+	"Thanks for playing!!!", 2, 2, 0,color,color,color,color,1);	
     draw_text_color(room_width/2, 200, 
 	@"Asteroids style game
 Made by Trianons", 

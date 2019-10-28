@@ -83,6 +83,13 @@
                     "mvc": "1.0",
                     "FrameId": "420edaba-c5e0-4f14-80b3-441da564411c",
                     "LayerId": "5760149b-b8da-4fd9-b0a5-4a5b7ec09d6d"
+                },
+                {
+                    "id": "300aba21-ca1d-4757-bcad-27fb8fddb5c6",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "420edaba-c5e0-4f14-80b3-441da564411c",
+                    "LayerId": "f5184503-c9eb-4dc8-add5-5eba6ac8a9e5"
                 }
             ]
         }
@@ -91,6 +98,17 @@
     "gridY": 8,
     "height": 32,
     "layers": [
+        {
+            "id": "f5184503-c9eb-4dc8-add5-5eba6ac8a9e5",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "c1ae5c6e-a81e-4ded-8627-7709c9dc012d",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 7",
+            "opacity": 100,
+            "visible": true
+        },
         {
             "id": "69cbe7b2-84b7-4d5b-bc2a-693e30a658f6",
             "modelName": "GMImageLayer",
@@ -182,7 +200,7 @@
     ],
     "origin": 4,
     "originLocked": true,
-    "playbackSpeed": 15,
+    "playbackSpeed": 10,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
@@ -190,7 +208,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 22,
-    "xorig": 11,
+    "width": 62,
+    "xorig": 31,
     "yorig": 16
 }
