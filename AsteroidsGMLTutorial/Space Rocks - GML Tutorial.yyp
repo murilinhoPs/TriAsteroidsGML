@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "11c61431-cd49-4714-a0be-4999aa51009c",
+            "Value": {
+                "id": "6b658c8d-042d-4765-b931-dc8b8c934652",
+                "resourcePath": "sprites\/spr_pl_anim\/spr_pl_anim.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1d7576fc-4080-4a94-bc20-cfb317db1bd8",
             "Value": {
                 "id": "964e9337-e627-4654-8c48-9bb5dccc4194",
@@ -194,7 +202,7 @@
             "Key": "5ede3e82-9983-49a2-a8ac-77e2f9ba967d",
             "Value": {
                 "id": "752c0d09-464c-4dad-a3e8-86e8d1ede597",
-                "resourcePath": "objects\/obj_cometa\/obj_cometa.yy",
+                "resourcePath": "objects\/cometa_master\/cometa_master.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -363,6 +371,14 @@
             "Value": {
                 "id": "f5823935-7e1a-42c7-aff6-a33b99a83453",
                 "resourcePath": "objects\/obj_master\/obj_master.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b5ae15af-fad1-4f1b-bf0a-824cf981c58f",
+            "Value": {
+                "id": "60edd65f-df13-431b-9ff2-cf7dc2807705",
+                "resourcePath": "objects\/obj_cometa\/obj_cometa.yy",
                 "resourceType": "GMObject"
             }
         },

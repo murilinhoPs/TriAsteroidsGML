@@ -24,7 +24,7 @@ if (lives <= 0)
  {
 		audio_play_sound(snd_lose, 1, false);
 	    room_goto(rm_lose);
-		lives = 1;
+		lives = 5;
  }
 }
 

@@ -30,4 +30,5 @@ else
 	isActive = false;
 	analogMoveX = 0; 
 	analogMoveY = 0;
+	
 }

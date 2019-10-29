@@ -2,6 +2,8 @@ switch (room)
 {
 	case rm_start:
 		room_goto_next();
+		lives = 5;
+		score = 0;
 	break;
 	
 	case rm_game:

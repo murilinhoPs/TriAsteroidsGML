@@ -64,8 +64,8 @@
             "blendMode": 3,
             "isLocked": false,
             "name": "Layer 1",
-            "opacity": 0,
-            "visible": true
+            "opacity": 100,
+            "visible": false
         },
         {
             "id": "4ab3e0d0-c6cc-42a1-af90-7cf93f2546ef",
@@ -75,7 +75,7 @@
             "blendMode": 3,
             "isLocked": false,
             "name": "Layer 1 (2)",
-            "opacity": 30,
+            "opacity": 80,
             "visible": true
         },
         {
@@ -86,7 +86,7 @@
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
-            "opacity": 100,
+            "opacity": 70,
             "visible": true
         }
     ],
